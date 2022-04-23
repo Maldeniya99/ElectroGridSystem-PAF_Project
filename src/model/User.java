@@ -122,7 +122,7 @@ public class User
 					 
 					 // Prepare the html table to be displayed
 					 
-					 output = "<table border='1'><tr><th>user Name</th><th>Name</th>" +"<th>Phone</th>" +"<th>Email</th>" +"<th>Password</th>" +"<th>Update</th><th>Remove</th></tr>";
+					 output = "<table border='1'><tr><th>User Name</th><th>Name</th>" +"<th>Phone</th>" +"<th>Email</th>" +"<th>Password</th>" +"<th>Update</th><th>Remove</th></tr>";
 					
 					 String query = "select * from users";
 					 
