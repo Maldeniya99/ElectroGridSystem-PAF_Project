@@ -18,7 +18,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 import model.Staff;
-
+@Path("/Staff")
 public class StaffService {
 	Staff staffObj = new Staff();
 	@GET
